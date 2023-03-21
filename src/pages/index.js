@@ -157,7 +157,9 @@ export default function Chatbot() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
-          <i className="bx bxs-right-arrow-circle" onClick={handleAnswer}></i>
+          <button onClick={handleAnswer}>
+            <i className="bx bxs-right-arrow-circle"></i>
+          </button>
         </div>
       </main>
     </>

@@ -1,3 +1,11 @@
+# Stream Chatbot Sample Application
+
+## demo
+
+<video src="./public/demo/stream-chatbot-sample-demo.mp4" width="500" height="200" controls>
+  Your browser does not support the video tag.
+</video>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

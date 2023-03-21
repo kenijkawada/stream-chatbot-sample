@@ -1,7 +1,6 @@
 import { createParser } from "eventsource-parser";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-// const OPENAI_API_KEY = "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";
 const URL = "https://api.openai.com/v1/chat/completions";
 const DAVINCI_TURBO = "gpt-3.5-turbo";
 

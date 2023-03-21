@@ -1,0 +1,92 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 6rem; */
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+/* Header */
+.chat .header {
+  position: fixed;
+  top: 0;
+  max-width: 1000px;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+}
+
+/* Messages */
+.chat .messages {
+  /* 50px equal header height */
+  margin-block-start: 50px;
+  /* 50px equal footer height */
+  margin-block-end: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+  gap: 1.6rem;
+  overflow: scroll;
+}
+
+.chat p {
+  display: inline-block;
+  width: auto;
+}
+
+.chat .messages .messages_chat {
+  margin-inline-start: 5px;
+  margin-inline-end: auto;
+  max-width: 80%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 24px;
+  background-color: white;
+}
+
+.chat .messages .messages_user {
+  margin-inline-start: auto;
+  margin-inline-end: 5px;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 24px;
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+}
+
+/* footer */
+.chat .footer {
+  position: fixed;
+  bottom: 30px;
+  max-width: 1000px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  gap: 5px;
+}
+
+.chat .footer textarea {
+  resize: none;
+  width: 100%;
+  padding: 12px 0 12px 32px;
+  max-height: 120px;
+  height: 24px;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 36px;
+}
+
+.chat .footer i {
+  font-size: 2.6rem;
+  color: lightgreen;
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+}
